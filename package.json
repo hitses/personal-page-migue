@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc --watch",
-    "start": "node --watch ./dist/index.js"
+    "tsc": "tsc --watch",
+    "dev": "node --watch ./dist/index.js",
+    "start": "node ./dist/index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "nodemailer": "^6.9.0"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.13",
     "@types/express": "^4.17.15",
     "@types/morgan": "^1.9.4",
     "@types/nodemailer": "^6.4.7",
